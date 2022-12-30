@@ -82,6 +82,7 @@ class _WeeklyViewPageState extends State<WeeklyViewPage> {
                       )),
                 ],
               )),
+          //타임라인 할일별 카드
           Expanded(
             child: Center(
               child: Text(
