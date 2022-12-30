@@ -4,7 +4,6 @@ import 'package:farm_management_proj/comp_upper_appbar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_calendar_week/flutter_calendar_week.dart';
 import 'package:intl/intl.dart';
-import 'package:timeline_tile/timeline_tile.dart';
 
 class WeeklyViewPage extends StatefulWidget {
   const WeeklyViewPage({Key? key}) : super(key: key);
@@ -83,8 +82,7 @@ class _WeeklyViewPageState extends State<WeeklyViewPage> {
                       )),
                 ],
               )),
-// 할일별 타임라인 카드
-           Expanded(
+          Expanded(
             child: Center(
               child: Text(
                 '${_controller.selectedDate.day}/${_controller.selectedDate.month}/${_controller.selectedDate.year}',
@@ -93,5 +91,7 @@ class _WeeklyViewPageState extends State<WeeklyViewPage> {
             ),
           )
         ]),
-      );
+      ),
+    );
+  }
 }
