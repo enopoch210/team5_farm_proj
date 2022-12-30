@@ -404,7 +404,18 @@ packages:
       sha256: ad540f65f92caa91bf21dfc8ffb8c589d6e4dc0c2267818b4cc2792857706206
       url: "https://pub.dev"
     source: hosted
+<<<<<<< Updated upstream
     version: "0.4.16"
+=======
+    version: "0.4.12"
+  timeline_tile:
+    dependency: "direct main"
+    description:
+      name: timeline_tile
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.0"
+>>>>>>> Stashed changes
   typed_data:
     dependency: transitive
     description:

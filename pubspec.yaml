@@ -50,8 +50,16 @@ dependencies:
   flutter_rating_bar: ^4.0.1
   weekday_selector: ^1.1.0
   flutter_colorpicker: ^1.0.3
+<<<<<<< Updated upstream
   fluttertoast: ^8.1.2
   folding_cell: "^1.0.2"
+=======
+  flutter_clean_calendar: ^1.1.0
+  table_calendar: ^3.0.6
+  flutter_calendar_week: ^3.0.0
+  timeline_tile: ^2.0.0
+
+>>>>>>> Stashed changes
 
 dev_dependencies:
   flutter_test:
